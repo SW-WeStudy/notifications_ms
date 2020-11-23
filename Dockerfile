@@ -12,4 +12,4 @@ COPY . /usr/src/notification
 
 EXPOSE 3005
 
-CMD ["npm","run","dev"]
+CMD ["npm","start"]
