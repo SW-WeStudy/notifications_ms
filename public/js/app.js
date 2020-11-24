@@ -271,7 +271,7 @@ btnDesactivadas.on("click",() => {
             fetch("api/subscribe", {
                 method:"POST",
                 headers:{"Content-Type":"application/json"},
-                body:JSON.stringify(sus)
+                body: JSON.stringify(sus)
             }).then(() => console.log("correcto"))
             .catch(() => console.log("correcto"))
         })

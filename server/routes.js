@@ -43,7 +43,7 @@ router.post('/', function (req, res) {
 
 //Almacenar la suscripcion
 router.post("/subscribe",(req,res) => {
-  const sus = req.body;
+  const sus = req.body.subscription;
   push.addSubscription(sus);
   res.json("suscribe");
 });
